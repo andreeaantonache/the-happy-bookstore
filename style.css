@@ -103,6 +103,7 @@ body, html {
       cursor: pointer;
       text-decoration: underline;
       text-decoration-line: none;
+      width: 55%;
   
   }
   a.footer-text:hover{
