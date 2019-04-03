@@ -10,12 +10,16 @@ body, html {
     background-image: url("./images/biblioteca.jpg");
     min-height: 75%;
     filter: grayscale(50%);
-    position: relative;
     display: block;
     
   }
-  
-  
+  .happy:hover{
+      color:red;
+  }
+  .home:hover{
+      background-color: white;
+      color:black;
+  }
   
   .title{
       color: #fff;
@@ -95,19 +99,19 @@ body, html {
       color: #000;
       background-color: #f1f1f1;
       border-left: 6px solid #ccc;
-      margin-top: 16px;
-      margin-bottom: 16px;
-      padding: 0.01em 16px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      padding:8px;
   }
   .footer-text{
       cursor: pointer;
       text-decoration: underline;
       text-decoration-line: none;
-      width: 55%;
+     
   
   }
   a.footer-text:hover{
-      color:green!important;
+      color:green;
       background-color: #f1f1f1;
   }
   
@@ -186,3 +190,52 @@ body, html {
       padding: 8px;
       
   }
+
+  .responsive{
+    width: 100%;
+    height: auto;
+  }
+
+  			
+  #iconi:hover{
+			
+    color:#CB4335;}
+    
+    
+    #iconp:hover{
+    
+    color:#b70609;}
+    
+    #icont:hover{
+    
+    color:#0F7DF1  ;}
+    
+    #iconf:hover{
+    
+    color:#3498DB;}
+    
+    #iconf{
+      margin: 4px 2px;
+      font-size:25px;
+      
+    }
+    
+    #iconi{
+        margin: 4px 2px;
+        font-size:25px;
+    }
+    
+
+    #iconp{
+        margin: 4px 2px;
+        font-size:25px;
+    }
+    #icont{
+        margin: 4px 2px;
+        font-size:25px;
+    }
+    
+    #iconl{
+        margin: 4px 2px;
+        font-size:25px;
+    }
